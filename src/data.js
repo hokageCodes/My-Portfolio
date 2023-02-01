@@ -16,7 +16,7 @@ import {
 // projects images
 import Project1 from './assets/img/projects/house-place.jpg';
 import Project2 from './assets/img/projects/NASA.jpg';
-import Project3 from './assets/img/projects/p3.webp';
+import Project3 from './assets/img/projects/ReconAi.png';
 // import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/Napo.jpeg';
 import Project6 from './assets/img/projects/Math.jpg';
@@ -89,6 +89,14 @@ export const social = [
 // projects
 export const projectsData = [
   {
+    id: '3',
+    image: Project3,
+    name: 'Reconcile AI',
+    category: 'React JS',
+    description: 'Reconcile.AI is a web application that compares third-party and independent financial statements and records with internal financial records and ledgers. It does this accurately with artificial intelligence from Open AI and machine learning models like GPT-3. Reconcile.AI makes the day-to-day balancing of accounts and sales easier, faster, and very reliable for Small and Medium Enterprises.',
+    href: 'https://reconcileai.com'
+  },
+  {
     id: '1',
     image: Project1,
     name: 'Hokage-bnb',
@@ -103,13 +111,6 @@ export const projectsData = [
     category: 'HTML | CSS | JS',
     description: 'The Universe is vast and wide, and there are so many things we dont know about it. BUT! There are things we DO know. This project, built using realtime data from NASA\'s API shows us most of these information about our universe, available to us.',
     href: 'https://nasassistic.netlify.app/'
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'React JS',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam obcaecati ipsam.'
   },
   // {
   //   id: '4',
