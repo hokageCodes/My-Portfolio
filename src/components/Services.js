@@ -12,8 +12,7 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Using the latest or the most appropriate technologies, I can help you build your brand from idea to reality, Or revamp your existing brand to position it in the competitive market.
           </p>
         </div>
         <div className='grid lg:grid-cols-3 gap-8'>

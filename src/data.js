@@ -1,7 +1,7 @@
 //  icons
 import {
   FiGithub,
-  FiDribbble,
+  // FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -14,12 +14,15 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
+import Project1 from './assets/img/projects/house-place.jpg';
+import Project2 from './assets/img/projects/NASA.jpg';
 import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+// import Project4 from './assets/img/projects/p4.webp';
+import Project5 from './assets/img/projects/Napo.jpeg';
+import Project6 from './assets/img/projects/Math.jpg';
+import Project7 from './assets/img/projects/p7.jpg';
+import Project8 from './assets/img/projects/Responsive.jpg';
+import Project9 from './assets/img/projects/p6.webp';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -30,9 +33,9 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+// import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
+// import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
+// import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -88,38 +91,72 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Hokage-bnb',
+    category: 'React JS',
+    description: 'A house listing market place where you can put up your house for rent or sale, or view other houses for rent or sale. Signup (email or google) and explore!',
+    href: 'https://hokage-bnb.vercel.app/'
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'NASAssistic',
+    category: 'HTML | CSS | JS',
+    description: 'The Universe is vast and wide, and there are so many things we dont know about it. BUT! There are things we DO know. This project, built using realtime data from NASA\'s API shows us most of these information about our universe, available to us.',
+    href: 'https://nasassistic.netlify.app/'
   },
   {
     id: '3',
     image: Project3,
     name: 'project name 3',
-    category: 'UI/UX design',
+    category: 'React JS',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam obcaecati ipsam.'
   },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'Low/No-code',
-  },
+  // {
+  //   id: '4',
+  //   image: Project4,
+  //   name: 'project name 4',
+  //   category: 'Low/No-code',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam obcaecati ipsam.'
+  // },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Quotes Hub',
+    category: 'HTML | CSS | JS',
+    description: 'Everyone loves a good motivational or life quote. It makes us feel good, and keeps us motivated. If you love such, you\'d love this project. If you don\'t like quotes before now, Youd love this project too! Enjoy!',
+    href: 'https://quoteshub.netlify.app/'
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'We Hate Math, dont we?',
+    category: 'HTML | CSS | JS',
+    description: 'Okay, okay, I hear what you are saying. And i think we can all agree - NOBODY likes math 😂 - But this is a fun, easy one i promise! I dare you, take a MATH test today!😈',
+    href: 'https://wehatemath.netlify.app/'
+
+  },
+  {
+    id: '7',
+    image: Project7,
+    name: '404 Not Found Page',
+    category: 'Responsive Web Design',
+    description: 'We\'ve all encountered a 404 error before. It means the page on the site you are trying to visit does NOT exist. Here is a beautifully designed 404 page made from an online challenge',
+    href: 'https://error-404notfound.netlify.app/'
+  },
+  {
+    id: '8',
+    image: Project8,
+    name: 'Cheesecake Recipe',
+    category: 'Responsive Web Design',
+    description: 'Ever wondered how to make cheesecake? Well, This is a cheese cake recipe you. You can even view on your phone for ease!',
+    href: 'https://recipe-cheese.netlify.app/'
+  },
+  {
+    id: '9',
+    image: Project9,
+    name: 'project name 9',
+    category: 'React JS',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam obcaecati ipsam.'
   },
 ];
 
@@ -129,14 +166,17 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'React JS', // Formerly UI/UX DESIGN
   },
   {
-    name: 'web development',
+    name: 'Responsive Web Design', // Formerly Responsive Web Design
   },
   {
-    name: 'low/no-code',
+    name: 'HTML | CSS | JS', // Fomerly Web Development
   },
+  // {
+  //   name: 'Low/no-code', // Fomerly Low/ No code
+  // },
 ];
 
 // skill
@@ -167,19 +207,19 @@ export const services = [
     icon: <FiLayout />,
     name: 'Ui Design & Ux Research',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Designing websites and products with our clients or target audience in mind, using best practices and the latest tools to create a seamless experience.',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I convert designs, ideas and interactions to real experiences.',
   },
   {
     icon: <FiPenTool />,
     name: 'Low/No-code',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Clients on a budget arent left out! By Using the best low/no code tools (e.g Wordpress, Bubble), I can help you design and build a brand or a blog you would be proud of.',
   },
   // {
   //   icon: <FiTag />,
@@ -190,29 +230,29 @@ export const services = [
 ];
 
 // testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-];
+// export const testimonials = [
+//   {
+//     authorImg: TestiImage1,
+//     authorText:
+//       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+//     authorName: 'Olivia Doe',
+//     authorPosition: 'Head of Design, Google',
+//   },
+//   {
+//     authorImg: TestiImage2,
+//     authorText:
+//       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+//     authorName: 'Olivia Doe',
+//     authorPosition: 'Head of Design, Google',
+//   },
+//   {
+//     authorImg: TestiImage3,
+//     authorText:
+//       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+//     authorName: 'Olivia Doe',
+//     authorPosition: 'Head of Design, Google',
+//   },
+// ];
 
 // contact
 export const contact = [
@@ -229,3 +269,5 @@ export const contact = [
     description: 'Code. Coffee. Chakra',
   },
 ];
+
+

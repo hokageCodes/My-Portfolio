@@ -13,7 +13,7 @@ const Contact = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-            Okay you just have to trust me when i say that while building your project, the computer isNOT gonna make me cry. <br /> Please, send a message! 
+            Wanna hire? collaboarate? or you have any feedback,<br /> Please send a message! Your brand is in safe hands!
           </p>
         </div>
         <div
