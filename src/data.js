@@ -99,10 +99,10 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Hokage-bnb',
+    name: 'Kingsword Canada',
     category: 'React JS',
-    description: 'A house listing market place where you can put up your house for rent or sale, or view other houses for rent or sale. Signup (email or google) and explore!',
-    href: 'https://hokage-bnb.vercel.app/'
+    description: 'KingsWord Church in Canada - Raising a Supernatural Army - Built using',
+    href: 'https://kingsword.ca/'
   },
   {
     id: '2',
@@ -130,10 +130,10 @@ export const projectsData = [
   {
     id: '6',
     image: Project6,
-    name: 'We Hate Math, dont we?',
-    category: 'HTML | CSS | JS',
-    description: 'Okay, okay, I hear what you are saying. And i think we can all agree - NOBODY likes math 😂 - But this is a fun, easy one i promise! I dare you, take a MATH test today!😈',
-    href: 'https://wehatemath.netlify.app/'
+    name: 'The Internationally Trained Lawyers Conference 2025',
+    category: 'React JS',
+    description: 'Crossing Borders, Breaking Barriers.',
+    href: 'https://itlconference.ca/'
 
   },
   {
